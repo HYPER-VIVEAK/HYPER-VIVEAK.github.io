@@ -180,7 +180,7 @@
 <body>
   <header>
     <h1>Viveak K</h1>
-    <p class="title">DevOps Engineer | Full Stack Developer | Docker | Kubernetes | CI/CD</p>
+    <p class="title">DevOps Engineer | Azure IoT | Docker & Container Orchestration | Full Stack Developer</p>
     <div class="contact-info">
       <span>📞 <a href="tel:9080473190">9080473190</a></span>
       <span>✉️ <a href="mailto:viveakviveak26988@gmail.com">viveakviveak26988@gmail.com</a></span>
@@ -190,7 +190,7 @@
   <main>
     <section>
       <h2>About</h2>
-      <p>DevOps engineer and full-stack developer with expertise in containerization, infrastructure automation, and cloud technologies. Proficient in designing and deploying scalable applications using Docker, Docker Compose, and cloud platforms. Strong background in backend development, CI/CD pipelines, and building resilient systems that emphasize automation and reliability.</p>
+      <p>DevOps engineer and full-stack developer specializing in cloud infrastructure, IoT edge computing, and containerization. Experienced in deploying scalable Azure IoT solutions using Infrastructure as Code (Bicep), building Docker-based microservices, and designing secure device-to-cloud data pipelines. Strong background in backend development, CI/CD automation, and building resilient systems that emphasize security, automation, and reliability.</p>
     </section>
 
     <section>
@@ -222,6 +222,30 @@
       </div>
 
       <div class="project-item">
+        <p class="project-title">Azure IoT Edge Gateway & Sensor Deployment</p>
+        <p>End-to-end IoT solution with edge computing gateway, encrypted sensor data transmission, and cloud infrastructure deployment using Azure services.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">Azure IoT Hub</span>
+          <span class="tech-tag">Bicep (IaC)</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Arduino (C)</span>
+          <span class="tech-tag">RSA Encryption</span>
+          <span class="tech-tag">Serial Communication</span>
+        </div>
+        <ul>
+          <li><strong>Infrastructure as Code:</strong> Azure resource deployment using Bicep templates (81.7% of codebase)</li>
+          <li><strong>Edge Gateway:</strong> Python-based edge client handling serial communication and data forwarding to Azure IoT Hub</li>
+          <li><strong>Security Layer:</strong> RSA keypair generation and session key encryption for secure device-to-cloud communication</li>
+          <li><strong>IoT Device:</strong> Arduino-based sensor node with DHT11 (temperature/humidity) and custom SIT cipher encryption</li>
+          <li><strong>Cloud Integration:</strong> Azure IoT Hub device client with connection string authentication and message routing</li>
+          <li><strong>Data Pipeline:</strong> Serial → Edge Gateway → RSA Encryption → Azure IoT Hub (JSON payloads)</li>
+          <li><strong>Hardware Integration:</strong> Arduino serial communication at 9600 baud with base64 encoded payloads</li>
+          <li><strong>Automated Dependencies:</strong> Python dependency management with azure-iot-device, pycryptodome, pyserial</li>
+        </ul>
+        <p><a href="https://github.com/HYPER-VIVEAK/azure_stage1_confirm_deployment" target="_blank">View on GitHub →</a></p>
+      </div>
+
+      <div class="project-item">
         <p class="project-title">Online Genset Sales & Service Booking System</p>
         <p>A web application for generator sales and service scheduling with automated form management and notification system integration.</p>
         <div class="tech-stack">
@@ -242,13 +266,15 @@
     <section>
       <h2>DevOps & Infrastructure Skills</h2>
       <p><strong>Containerization & Orchestration:</strong> Docker, Docker Compose, Docker Hub, container optimization, multi-stage builds</p>
-      <p><strong>Cloud Platforms:</strong> AWS basics, deployment architecture, serverless concepts</p>
-      <p><strong>Infrastructure & Automation:</strong> Linux, Shell scripting, environment configuration, infrastructure as code concepts</p>
+      <p><strong>Cloud Platforms:</strong> Microsoft Azure (IoT Hub, Bicep IaC), AWS basics, deployment architecture, serverless concepts</p>
+      <p><strong>Infrastructure as Code:</strong> Bicep (Azure), infrastructure automation, resource templates, deployment pipelines</p>
+      <p><strong>Infrastructure & Automation:</strong> Linux, Shell scripting, environment configuration, system administration</p>
       <p><strong>CI/CD Pipelines:</strong> Git workflows, automated testing concepts, deployment automation</p>
+      <p><strong>IoT & Edge Computing:</strong> Azure IoT Hub, edge gateways, device-to-cloud messaging, sensor integration</p>
       <p><strong>Monitoring & Logging:</strong> Application health checks, error tracking, log management</p>
       <p><strong>Backend & API Development:</strong> Node.js, Express.js, REST APIs, API design patterns, request validation</p>
       <p><strong>Database Administration:</strong> MongoDB, MySQL, database design, data persistence, backup strategies</p>
-      <p><strong>Security & Authentication:</strong> JWT, OAuth concepts, authentication flows, password hashing (bcryptjs), CORS, role-based access control</p>
+      <p><strong>Security & Authentication:</strong> JWT, OAuth concepts, RSA encryption, authentication flows, password hashing (bcryptjs), CORS, role-based access control</p>
       <p><strong>Frontend Technologies:</strong> React 18, Vue.js concepts, Tailwind CSS, responsive design, Vite</p>
       <p><strong>Programming Languages:</strong> JavaScript (Node.js), Python, Java, C, C++</p>
       <p><strong>Tools & Platforms:</strong> Git & GitHub, Linux command line, npm/package management, Postman/API testing, VS Code</p>
@@ -259,11 +285,13 @@
       <ul>
         <li><strong>Container Architecture:</strong> Designing scalable multi-service applications with Docker</li>
         <li><strong>Service Orchestration:</strong> Managing dependencies and inter-service communication with Docker Compose</li>
+        <li><strong>Cloud Infrastructure:</strong> Deploying and managing Azure IoT resources using Infrastructure as Code (Bicep)</li>
+        <li><strong>IoT Edge Computing:</strong> Building edge gateway solutions for device-to-cloud data pipelines</li>
         <li><strong>Environment Management:</strong> Handling secrets, configuration files, and environment variables in containerized environments</li>
         <li><strong>Full Stack Development:</strong> Building production-ready applications from backend API to frontend interface</li>
         <li><strong>Database Integration:</strong> Designing schemas, managing persistence, implementing authentication layers</li>
         <li><strong>API Design:</strong> Creating RESTful APIs with proper error handling, validation, and standardized response formats</li>
-        <li><strong>Security Practices:</strong> Implementing authentication, authorization, and secure data handling</li>
+        <li><strong>Security Practices:</strong> Implementing authentication, authorization, encryption, and secure data handling</li>
         <li><strong>Code Organization:</strong> Structuring projects for scalability and maintainability</li>
       </ul>
     </section>
@@ -317,12 +345,15 @@
       <ul>
         <li><strong>Containerization:</strong> Docker, Docker Images, Docker Registries, Container Optimization</li>
         <li><strong>Orchestration:</strong> Docker Compose, service networking, volume management</li>
-        <li><strong>Cloud Services:</strong> AWS fundamentals, deployment architectures, serverless concepts</li>
+        <li><strong>Cloud Services:</strong> Microsoft Azure (IoT Hub, Resource Manager), Azure Bicep, AWS fundamentals, deployment architectures</li>
+        <li><strong>Infrastructure as Code:</strong> Bicep templates, Azure Resource Manager, infrastructure automation</li>
+        <li><strong>IoT & Edge:</strong> Azure IoT Hub, edge gateways, device provisioning, message routing, serial communication</li>
         <li><strong>Infrastructure:</strong> Linux (Ubuntu), shell scripting, system administration, environment configuration</li>
         <li><strong>Version Control:</strong> Git, GitHub, branching strategies, repository management</li>
         <li><strong>API Testing:</strong> Postman, REST client tools, API documentation</li>
         <li><strong>Development Tools:</strong> VS Code, npm, package management, terminal utilities</li>
         <li><strong>Database Tools:</strong> MongoDB Compass, MySQL Workbench, database migration tools</li>
+        <li><strong>Security Tools:</strong> RSA encryption (PyCryptodome), JWT authentication, certificate management</li>
       </ul>
     </section>
 
